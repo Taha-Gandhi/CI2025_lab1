@@ -5,6 +5,8 @@ This project implements a highly efficient, scalable solution for the Multidimen
 The goal is to select a subset of items and assign each chosen item to at most one of the available knapsacks, maximizing the total value, while ensuring all capacity constraints for all knapsacks and all resource dimensions are respected.
 
 Since this problem is computationally hard (NP-hard), especially with large data (thousands of items, many knapsacks), we use an Optimized Greedy Heuristic to find a very good (near-optimal) solution in seconds, where an exact method (like Dynamic Programming) would take hours or days.
+Alot of help has been taken from LLMs like Google Gemini and ChatGPT to solve the problem and optimize the solution for big data and efficiency. 
+Also, some concepts are adapted from the youtube video of 0/1 Knapsack problem by CodeHelp : https://youtu.be/xdPv2SZJLVI?si=clPEeU4Og8feKh25
 
 ## ❓ The Problem
 
